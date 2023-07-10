@@ -16,14 +16,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: set frozen false
-      run: bundle config set frozen false
     - uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.0' # Not needed with a .ruby-version file
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       
-
+    - name: set frozen false
+      run: bundle config set frozen false
 
     - name: Publish to GPR
       run: |
