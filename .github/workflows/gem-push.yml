@@ -15,9 +15,9 @@ jobs:
       packages: write
 
     steps:
+    - uses: actions/checkout@v3
     - name: set frozen false
       run: bundle config set frozen false
-    - uses: actions/checkout@v3
     - uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.0' # Not needed with a .ruby-version file
