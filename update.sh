@@ -1,6 +1,5 @@
 #!/bin/bash
 
-gem 'rake' , '>= 0.9.2'
 bundle update
 
 rm -rf _sass/lib && mkdir -p _sass/lib
