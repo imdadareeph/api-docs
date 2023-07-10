@@ -15,8 +15,6 @@ jobs:
       packages: write
 
     steps:
-    - name: set frozen false
-      run: ./../update
     - uses: actions/checkout@v3
     - uses: ruby/setup-ruby@v1
       with:
