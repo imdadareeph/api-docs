@@ -1,8 +1,8 @@
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-rtd-theme"
-  spec.version       = "2.0.10"
-  spec.authors       = ["saowang"]
-  spec.email         = ["saowang@outlook.com"]
+  spec.version       = "2.0.11"
+  spec.authors       = ["imdadareeph"]
+  spec.email         = ["imdadareeph@gmail.com"]
 
   spec.summary       = "Just another documentation theme compatible with GitHub Pages"
   spec.license       = "MIT"
